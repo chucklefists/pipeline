@@ -11,5 +11,6 @@ steps:
 - script: |
     echo Pipeline is running!
     echo And here is the value of our pipeline variable
+    echo this is working!
     echo $(mypipelinevar)
   displayName: 'Run a multi-line script'
